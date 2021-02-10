@@ -4,8 +4,12 @@ import WhitneyKoslik from './AboutMe/WhitneyKoslik'
 
 function App() {
   return (
-    <div className="App">
+    <div>
+    <h1>HEWI</h1>
+    <h2>Meet the Team!</h2>
+    <div className="About-me-list">
       <WhitneyKoslik />
+    </div>
     </div>
   );
 }
