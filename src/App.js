@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import WhitneyKoslik from './AboutMe/WhitneyKoslik'
+import Edgard from './AboutMe/Ed';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <h2>Meet the Team!</h2>
     <div className="About-me-list">
       <WhitneyKoslik />
+      <Edgard/>
     </div>
     </div>
   );
