@@ -6,8 +6,8 @@ const Hui = () =>{
         return(
             <div class='About-me'>
                 <img src="./fuhua.png" alt="Picture of Hui" />
-                <h1>You Hui Lu</h1>
-
+                <h3>You Hui Lu</h3>
+                <p></p>
             </div>
             
         )
