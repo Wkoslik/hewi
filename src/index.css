@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.About-me-list{
+  overflow-y: auto;
+  height: 60%;
+ /* width:40vw;*/
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-around;
+ text-align: center;
+}
+
+.About-me{
+  width: 20vw;
+  border: 2px solid black;
+  margin: 1em;
+}
+
+.About-me > img{
+  width: 100%;
+}
